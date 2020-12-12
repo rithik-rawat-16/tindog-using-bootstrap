@@ -1,0 +1,208 @@
+body{
+  text-align: center;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a, p{
+  font-family:'Ubuntu';
+}
+
+ /* Nav Bar */
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar{
+  padding: 0 0 40px;
+}
+.brand-text{
+  font-family:'Ubuntu';
+  font-size: 40px;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+  font-size: 20px;
+}
+
+
+/* Main Description where tag line and app img present */
+.tag-line{
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+/* download button */
+.download-button-apple{
+  margin-top: 10%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.download-button-google{
+  margin-top: 10%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.download-button-apple:hover{
+  background-color: #ff4c68;
+  border-color: #000;
+}
+.row-for-title{
+  padding-bottom: 85px;
+}
+
+
+/* title-image */
+.title-img{
+  width:50%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 150px;
+}
+
+/* media query */
+ @media (max-width:991px){
+  #title{
+    text-align: center;
+  }
+  .download-button{
+    width: 30%;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .title-img{
+  position:static;
+  transform: rotate(0);
+  margin: 18% auto 0 auto;
+  }
+}
+@media (max-width:575px){
+  .download-button-apple{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .download-button-google{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
+
+
+/* features */
+#features{
+  background-color: #fff;
+  padding: 6% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-icons{
+  color: #ef8172;
+  padding-bottom: 0.5rem;
+}
+.feature-icons:hover{
+  color: #ff4c68;
+}
+.features-heading{
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.features-description{
+  color: #8f8f8f;
+}
+
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 2.7rem;
+  color: #fff;
+}
+.testimonial-img{
+  width: 20%;
+  border-radius: 50%;
+  margin-top:5%;
+}
+.carousel-item{
+  padding: 6% 15% ;
+}
+
+
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img{
+  margin: 0 20px 0 20px;
+  padding: 7% 0 5%;
+  width: 10%;
+}
+
+
+/* pricing */
+#pricing{
+  padding: 6% 15%;
+}
+.card{
+  margin: 3% 0 3% 0;
+  border-color: #000;
+}
+.pricing-heading{
+  font-size: 40px;
+}
+.card-deck{
+  margin-top: 5%;
+}
+.card-header{
+  background-color: grey;
+  color: #fff;
+}
+.card-body{
+  font-weight: bold;
+}
+.sign-up-button{
+  background-color: grey;
+  border-color: grey;
+}
+.sign-up-button:hover{
+  background-color: #ff4c68;
+  border-color: #fff;
+}
+
+
+/* Call to Action  */
+#cta{
+  background-color: #ff4c68;
+  padding: 6% 15%;
+}
+.cta-line{
+  color: #fff;
+  font-size: 2.7rem;
+}
+
+
+/* footer */
+#footer{
+  background-color: #fff;
+  padding: 6% 15%;
+}
+.social-handles{
+  padding: 3% 0 3% 0;
+}
+.footer-fab{
+  margin: 0 3% 0 3%;
+}
